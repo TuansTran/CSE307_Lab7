@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Problem2CSS.css">
+    <title>Problem 2</title>
+    <script>
+        function changeStyle() {
+            var myPara = document.querySelector("#firstPara");
+            var mySecPara = document.querySelector("#secPara");
+
+            myPara.style.color = "blue";
+            myPara.style.backgroundColor = "yellow";
+            mySecPara.style.borderColor = "red";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="firstPara">
+        This is the first paragraph with class "Example".
+    </div>
+    <p>
+        <br>
+        This is another paragraph.
+        <br>
+    </p>
+    <div>
+        <p id="secPara">
+            <a href="#">Link with target attribute</a>
+        </p>
+        <br>
+    </div>
+    <div id="bttn">
+        <button onclick="changeStyle()">
+            Change
+        </button>
+    </div>
+</body>
+
+</html>

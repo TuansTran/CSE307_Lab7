@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body div#firstPara {
+    width: 20%;
+    background-color: lightblue;
+    color: green;
+}
+
+body div p {
+    width: 12%;
+    border: 1px solid transparent;
+}
